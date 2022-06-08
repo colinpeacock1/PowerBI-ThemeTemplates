@@ -1,0 +1,776 @@
+{
+  "id": 0,
+  "theme": "CorporateDarkBlue4713078048581183.json",
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "SharedResources",
+        "type": 2,
+        "items": [
+          {
+            "type": 202,
+            "path": "BaseThemes/CY22SU03.json",
+            "name": "CY22SU03"
+          }
+        ],
+        "disabled": false
+      }
+    },
+    {
+      "resourcePackage": {
+        "name": "RegisteredResources",
+        "type": 1,
+        "items": [
+          {
+            "type": 100,
+            "path": "PerformanceAnalyzerRibbon.PNG9235249894033772.jpg",
+            "name": "PerformanceAnalyzerRibbon.PNG9235249894033772.jpg"
+          },
+          {
+            "type": 201,
+            "path": "CorporateDarkBlue4713078048581183.json",
+            "name": "CorporateDarkBlue4713078048581183.json"
+          }
+        ],
+        "disabled": false
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": 0,
+      "name": "ReportSection",
+      "displayName": "blank",
+      "filters": "[]",
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 9.045936395759716,
+          "y": 0,
+          "z": 0,
+          "width": 1270.9540636042402,
+          "height": 698.0447585394581,
+          "config": "{\"name\":\"eb3084dae175cdcb15db\",\"layouts\":[{\"id\":0,\"position\":{\"height\":698.0447585394581,\"width\":1270.9540636042402,\"x\":9.045936395759716,\"y\":0,\"z\":0,\"tabOrder\":0}}],\"singleVisualGroup\":{\"displayName\":\"Visuals\",\"groupMode\":0}}"
+        },
+        {
+          "x": 731.9389882273559,
+          "y": 549.3065326633166,
+          "z": 2000,
+          "width": 109.34673366834171,
+          "height": 102.91457286432161,
+          "config": "{\"name\":\"672f04261af1c304ce9a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.9389882273559,\"y\":549.3065326633166,\"z\":2000,\"width\":109.34673366834171,\"height\":102.91457286432161,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"weight\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#B8002B'\"}}}}}},\"selector\":{\"id\":\"default\"}}]}},\"parentGroupName\":\"eb3084dae175cdcb15db\"}",
+          "filters": "[]"
+        },
+        {
+          "x": 27.137809187279146,
+          "y": 503.5571260306242,
+          "z": 1000,
+          "width": 877.4558303886926,
+          "height": 173.38044758539456,
+          "config": "{\"name\":\"f2f16a867ee970a7c5c6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":27.137809187279146,\"y\":503.5571260306242,\"z\":1000,\"width\":877.4558303886926,\"height\":173.38044758539456,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"PerformanceAnalyzerRibbon.PNG9235249894033772.jpg\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"eb3084dae175cdcb15db\"}",
+          "filters": "[]",
+          "tabOrder": 1000
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 1270.9540636042402,
+          "height": 698.0447585394581,
+          "config": "{\"name\":\"389143c96fd33d18a2cb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1270.9540636042402,\"height\":698.0447585394581,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Performance Analyzer - Blank Page\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"24pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"First page is left blank to allow performance analyzer\",\"textStyle\":{\"fontSize\":\"18pt\"}},{\"value\":\"1\",\"textStyle\":{\"fontSize\":\"18pt\",\"lineHeight\":\"0\",\"position\":\"relative\",\"verticalAlign\":\"baseline\",\"scriptType\":\"super\",\"top\":\"-0.5em\"}},{\"value\":\" to be utilized without caching of visuals on the initial page when the report is first loaded which can influence the results.\",\"textStyle\":{\"fontSize\":\"18pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Refer to this link for more details:\",\"textStyle\":{\"fontSize\":\"18pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Use Performance Analyzer to examine report element performance in Power BI Desktop - Power BI | Microsoft Docs\",\"textStyle\":{\"fontSize\":\"18pt\",\"color\":\"#12239e\"},\"url\":\"https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"1 Performance Analyzer can be found under View in the Ribbon Menu \",\"textStyle\":{\"fontSize\":\"18pt\"}}]}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"eb3084dae175cdcb15db\"}",
+          "filters": "[]",
+          "tabOrder": 2000
+        }
+      ],
+      "config": "{\"visibility\":1}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection7315ecff916d04626739",
+      "displayName": "Validations - Inventory Velocity",
+      "filters": "[]",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "x": 9.943502824858758,
+          "y": 0,
+          "z": 0,
+          "width": 280.225988700565,
+          "height": 65.98870056497175,
+          "config": "{\"name\":\"274cf81b7c4b00a8c33c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.943502824858758,\"y\":0,\"z\":0,\"width\":280.225988700565,\"height\":65.98870056497175,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Sort Values.Value\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Sort Values\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Value\"},\"Name\":\"DIM_Sort Values.Value\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Sort Values\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Value\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'On Hand Value (USD)'\"}}]]}}}]}}}}]}}}",
+          "filters": "[{\"name\":\"Filter18fc0634e68770d74a59\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Sort Values\"}},\"Property\":\"Type\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Sort Values\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Type\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Measure Currency'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]"
+        },
+        {
+          "x": 290.1694915254237,
+          "y": 0,
+          "z": 1000,
+          "width": 280.225988700565,
+          "height": 65.98870056497175,
+          "config": "{\"name\":\"12d7715545403c660ae3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":290.1694915254237,\"y\":0,\"z\":1000,\"width\":280.225988700565,\"height\":65.98870056497175,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Time Balance Week.FISCAL_DIM\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_DIM\"},\"Name\":\"DIM_Time Balance Week.FISCAL_DIM\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_DIM\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Fiscal Quarter'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 1000
+        },
+        {
+          "x": 570.3954802259888,
+          "y": 0,
+          "z": 2000,
+          "width": 280.225988700565,
+          "height": 65.98870056497175,
+          "config": "{\"name\":\"bd69e73e058716a174e5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":570.3954802259888,\"y\":0,\"z\":2000,\"width\":280.225988700565,\"height\":65.98870056497175,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Time Balance Week.FISCAL_YEAR\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_YEAR\"},\"Name\":\"DIM_Time Balance Week.FISCAL_YEAR\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_YEAR\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'FY20'\"}}],[{\"Literal\":{\"Value\":\"'FY21'\"}}],[{\"Literal\":{\"Value\":\"'FY22'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 2000
+        },
+        {
+          "x": 10.167696381288614,
+          "y": 172.85083848190644,
+          "z": 3000,
+          "width": 917.3521624007061,
+          "height": 128.7908208296558,
+          "config": "{\"name\":\"05492d87761cbe09532e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.167696381288614,\"y\":172.85083848190644,\"z\":3000,\"width\":917.3521624007061,\"height\":128.7908208296558,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Columns\":[{\"queryRef\":\"DIM_Time Balance Week.FISCAL_DIM_VALUE\",\"active\":true}],\"Values\":[{\"queryRef\":\"DAX_InventoryVelocity.INVVAL_MEASURE\"}],\"Rows\":[{\"queryRef\":\"DIM_SEC Reporting.Value\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d2\",\"Entity\":\"DAX_InventoryVelocity\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_SEC Reporting\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"INVVAL_MEASURE\"},\"Name\":\"DAX_InventoryVelocity.INVVAL_MEASURE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_DIM_VALUE\"},\"Name\":\"DIM_Time Balance Week.FISCAL_DIM_VALUE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Value\"},\"Name\":\"DIM_SEC Reporting.Value\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "tabOrder": 3000
+        },
+        {
+          "x": 850.6214689265537,
+          "y": 0,
+          "z": 4000,
+          "width": 280.225988700565,
+          "height": 65.98870056497175,
+          "config": "{\"name\":\"14225efb713b4f8af22e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":850.6214689265537,\"y\":0,\"z\":4000,\"width\":280.225988700565,\"height\":65.98870056497175,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Inventory Orgs.INVORG_CODE\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Inventory Orgs\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"INVORG_CODE\"},\"Name\":\"DIM_Inventory Orgs.INVORG_CODE\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "tabOrder": 4000
+        },
+        {
+          "x": 10,
+          "y": 377.5,
+          "z": 5000,
+          "width": 917,
+          "height": 150,
+          "config": "{\"name\":\"aa46a03c9c3e7b60f7a1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":377.5,\"width\":917,\"height\":150,\"z\":5000,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"FACT_Inventory Velocity Summary.CURRENT_MRP_ABC_CLASS\",\"active\":true},{\"queryRef\":\"FACT_Inventory Velocity Summary.ITEM_TBU\"}],\"Values\":[{\"queryRef\":\"Sum(FACT_Inventory Velocity Summary.ONHAND_VALUE_USD)\"}],\"Columns\":[{\"queryRef\":\"DIM_Time Balance Week.FISCAL_DIM_VALUE\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_Inventory Velocity Summary\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DIM_Time Balance Week\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"CURRENT_MRP_ABC_CLASS\"},\"Name\":\"FACT_Inventory Velocity Summary.CURRENT_MRP_ABC_CLASS\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"ONHAND_VALUE_USD\"}},\"Function\":0},\"Name\":\"Sum(FACT_Inventory Velocity Summary.ONHAND_VALUE_USD)\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_DIM_VALUE\"},\"Name\":\"DIM_Time Balance Week.FISCAL_DIM_VALUE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"ITEM_TBU\"},\"Name\":\"FACT_Inventory Velocity Summary.ITEM_TBU\"}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"FACT_Inventory Velocity Summary.CURRENT_MRP_ABC_CLASS\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_Inventory Velocity Summary\"}},\"Property\":\"CURRENT_MRP_ABC_CLASS\"}}],\"isPinned\":true},{\"queryRefs\":[\"FACT_Inventory Velocity Summary.ITEM_TBU\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"name\":\"Filter5d35e85002b07c01a0c9\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_SEC Reporting\"}},\"Property\":\"Value\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_SEC Reporting\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Value\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'FGI'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "tabOrder": 5000
+        },
+        {
+          "x": 824.4951140065147,
+          "y": 528.4690553745928,
+          "z": 6000,
+          "width": 396.0912052117264,
+          "height": 191.7915309446254,
+          "config": "{\"name\":\"aecd69ad68d242c1e05c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":824.4951140065147,\"y\":528.4690553745928,\"z\":6000,\"width\":396.0912052117264,\"height\":191.7915309446254,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Validation Comments:\",\"textStyle\":{\"fontWeight\":\"bold\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "tabOrder": 6000
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSectionbe26e8165c1e7e588f24",
+      "displayName": "Validations - M20 Detail",
+      "filters": "[]",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "x": 650.4234527687297,
+          "y": 370.0325732899023,
+          "z": 0,
+          "width": 629.5765472312704,
+          "height": 262.671009771987,
+          "config": "{\"name\":\"c46474576de7247769b3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.4234527687297,\"y\":370.0325732899023,\"z\":0,\"width\":629.5765472312704,\"height\":262.671009771987,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__SPC Ext Sales Subtotal\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__SPC Ext Service Subtotal\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__SPC\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_ODC\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__Installation Provision Subtotal\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__Warranty Exp Subtotal\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_SERV_ABS_VAR\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_ABS_VAR\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_VAR\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_INTANG_AMORT\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_TOT\"},{\"queryRef\":\"DAX_InventoryTurns.Inventory Turns COGS\"},{\"queryRef\":\"DAX_InventoryTurns.Gross Inventory USD\"},{\"queryRef\":\"DIM_Calendar.GL Period\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__SPC Ext Sales Subtotal\"},\"Name\":\"DAX_InventoryTurns.COGS__SPC Ext Sales Subtotal\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__SPC Ext Service Subtotal\"},\"Name\":\"DAX_InventoryTurns.COGS__SPC Ext Service Subtotal\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__SPC\"},\"Name\":\"DAX_InventoryTurns.COGS__SPC\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_ODC\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_ODC\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__Installation Provision Subtotal\"},\"Name\":\"DAX_InventoryTurns.COGS__Installation Provision Subtotal\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__Warranty Exp Subtotal\"},\"Name\":\"DAX_InventoryTurns.COGS__Warranty Exp Subtotal\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_SERV_ABS_VAR\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_SERV_ABS_VAR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_ABS_VAR\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_ABS_VAR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_VAR\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_VAR\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_INTANG_AMORT\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_INTANG_AMORT\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__COS_TOT\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_TOT\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Inventory Turns COGS\"},\"Name\":\"DAX_InventoryTurns.Inventory Turns COGS\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Gross Inventory USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"GL Period\"},\"Name\":\"DIM_Calendar.GL Period\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"100.00808921895717D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__SPC Ext Service Subtotal\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"90.36145143730282D\"}}}},\"selector\":{\"metadata\":\"DAX_Metrics (2).COGS__SPC Ext Sales Subtotal\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"88.28162261799929D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__SPC\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"85.40893470790378D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__COS_ODC\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"84.74570446735396D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__Installation Provision Subtotal\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"86.93127147766323D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__Warranty Exp Subtotal\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"73.83161512027492D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__COS_SERV_ABS_VAR\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"71.8213058419244D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__COS_ABS_VAR\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"97.02749140893471D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.COGS__COS_INTANG_AMORT\"}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 11.465798045602606,
+          "y": 6.254071661237785,
+          "z": 1000,
+          "width": 396.0912052117264,
+          "height": 453.4201954397394,
+          "config": "{\"name\":\"3f87b71780e5546d9ef2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.465798045602606,\"y\":6.254071661237785,\"z\":1000,\"width\":396.0912052117264,\"height\":453.4201954397394,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Validation Comments:\",\"textStyle\":{\"fontWeight\":\"bold\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"If the validation shows an error, check that the fiscal calendar join is returning date values in the selection period\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Check Number Formatting embedded in DAX calculations\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"How to ensure fiscal week, etc aligns for dim tables\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"What date field in the M20 Detail table to link the DIM_Calendar\"}]}]}}]}}}",
+          "filters": "[]",
+          "tabOrder": 1000
+        },
+        {
+          "x": 743.1003039513678,
+          "y": 6.808510638297872,
+          "z": 2000,
+          "width": 266.5045592705167,
+          "height": 191.61094224924014,
+          "config": "{\"name\":\"df7f7c14cc09525899a9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":743.1003039513678,\"y\":6.808510638297872,\"z\":2000,\"width\":266.5045592705167,\"height\":191.61094224924014,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\",\"active\":true},{\"queryRef\":\"DIM_Calendar.GL Period\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Week\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Week\"},\"Name\":\"DIM_Calendar.Fiscal Week\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GL Period\"},\"Name\":\"DIM_Calendar.GL Period\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"DIM_Calendar.FISCAL_QUARTER_DISP\"],\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}}],\"isPinned\":true},{\"queryRefs\":[\"DIM_Calendar.GL Period\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"GL Period\"}}],\"isPinned\":true},{\"queryRefs\":[\"DIM_Calendar.Fiscal Week\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Q2 2022'\"}}]]}}}]}}}}]},\"cachedFilterDisplayItems\":[{\"id\":{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"Right\":{\"Literal\":{\"Value\":\"'Q2 2022'\"}}}}},\"displayName\":\"Q2 2022\"}]}}",
+          "filters": "[]",
+          "tabOrder": 2000
+        },
+        {
+          "x": 407.53799392097267,
+          "y": 6.808510638297872,
+          "z": 3000,
+          "width": 232.46200607902736,
+          "height": 191.61094224924014,
+          "config": "{\"name\":\"a83de8018b9a99305b3e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":407.53799392097267,\"y\":6.808510638297872,\"z\":3000,\"width\":232.46200607902736,\"height\":191.61094224924014,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_M20Detail_Snowflake.M20_TBU\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_M20Detail\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"M20_TBU\"},\"Name\":\"FACT_M20Detail_Snowflake.M20_TBU\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_M20Detail\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"M20_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 3000
+        },
+        {
+          "x": 10.640066500415628,
+          "y": 501.1471321695761,
+          "z": 4000,
+          "width": 303.2418952618454,
+          "height": 218.12136325852038,
+          "config": "{\"name\":\"a4c39df2c1257489ef06\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.640066500415628,\"y\":501.1471321695761,\"z\":4000,\"width\":303.2418952618454,\"height\":218.12136325852038,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_InventoryTurns.Max of Calendar Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Max of Calendar Day\"},\"Name\":\"DAX_InventoryTurns.Max of Calendar Day\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Max of Calendar Day\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "tabOrder": 4000
+        },
+        {
+          "x": 325.5860349127182,
+          "y": 502.21113881961764,
+          "z": 5000,
+          "width": 313.881961762261,
+          "height": 218.12136325852038,
+          "config": "{\"name\":\"c9f3c9a9ddb72e9ffbea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":325.5860349127182,\"y\":502.21113881961764,\"z\":5000,\"width\":313.881961762261,\"height\":218.12136325852038,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_InventoryTurns.Min of Calendar Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Min of Calendar Day\"},\"Name\":\"DAX_InventoryTurns.Min of Calendar Day\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Min of Calendar Day\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "tabOrder": 5000
+        },
+        {
+          "x": 743.1921824104235,
+          "y": 227.2312703583062,
+          "z": 6000,
+          "width": 266.84039087947883,
+          "height": 132.37785016286645,
+          "config": "{\"name\":\"1c5a3faf522985765315\",\"layouts\":[{\"id\":0,\"position\":{\"x\":743.1921824104235,\"y\":227.2312703583062,\"z\":6000,\"width\":266.84039087947883,\"height\":132.37785016286645,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_M20Detail_Snowflake.M20_TBU\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__SPC\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_M20Detail\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"M20_TBU\"},\"Name\":\"FACT_M20Detail_Snowflake.M20_TBU\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"COGS__SPC\"},\"Name\":\"DAX_InventoryTurns.COGS__SPC\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "tabOrder": 6000
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSectiona6e51bff22a6c9481e7d",
+      "displayName": "Validation - M20 Detail TBU",
+      "filters": "[]",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "x": 10.423452768729643,
+          "y": 0,
+          "z": 0,
+          "width": 1184.1042345276874,
+          "height": 654.5928338762216,
+          "config": "{\"name\":\"d163a227c48f442aa656\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.423452768729643,\"y\":0,\"z\":0,\"width\":1184.1042345276874,\"height\":654.5928338762216}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"f1\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f1\"}},\"Property\":\"INV_VALUE_USD\"}},\"Function\":0},\"Name\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"name\":\"Filter72437401c11e2981f868\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Financial Map\"}},\"Property\":\"FIN_TBU\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]"
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSectionab003bef0ef61f040832",
+      "displayName": "Validations - Inventory Recon",
+      "filters": "[]",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "x": 11.522094926350245,
+          "y": 86.93944353518822,
+          "z": 0,
+          "width": 785.5973813420621,
+          "height": 632.6677577741407,
+          "config": "{\"name\":\"68e04fbbb3dcf2cd7321\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.522094926350245,\"y\":86.93944353518822,\"z\":0,\"width\":785.5973813420621,\"height\":632.6677577741407,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"queryRef\":\"FACT_InventoryValue_Snowflake.FIN_TBU\"},{\"queryRef\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\"},{\"queryRef\":\"Sum(FACT_InventoryValue_Snowflake.INV_VALUE_USD)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"FACT_InventoryValue_Snowflake.FIN_TBU\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"INV_VALUE_USD\"}},\"Function\":0},\"Name\":\"Sum(FACT_InventoryValue_Snowflake.INV_VALUE_USD)\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FIN_TBU\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"160.03432325534624D\"}}}},\"selector\":{\"metadata\":\"FACT_InventoryValue_Snowflake.FIN_TBU\"}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 11.522094926350245,
+          "y": 13.617021276595745,
+          "z": 1000,
+          "width": 303.76432078559736,
+          "height": 73.32242225859247,
+          "config": "{\"name\":\"1044c762e5a2407695f7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":11.522094926350245,\"y\":13.617021276595745,\"z\":1000,\"width\":303.76432078559736,\"height\":73.32242225859247,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_InventoryValue_Snowflake.FISCAL_WEEK\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FISCAL_WEEK\"},\"Name\":\"FACT_InventoryValue_Snowflake.FISCAL_WEEK\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FISCAL_WEEK\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'2022 - WK_26'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 1000
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection3f1dbd4dcb4d78e86b96",
+      "displayName": "Validations - Gross Inventory",
+      "filters": "[]",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "x": 640,
+          "y": 21.993127147766323,
+          "z": 0,
+          "width": 607.0103092783505,
+          "height": 273.8144329896907,
+          "config": "{\"name\":\"382ae47b808bfceb2042\",\"layouts\":[{\"id\":0,\"position\":{\"x\":640,\"y\":21.993127147766323,\"z\":0,\"width\":607.0103092783505,\"height\":273.8144329896907,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Validation Comments:\",\"textStyle\":{\"fontWeight\":\"bold\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"If the validation shows an error, check that the fiscal calendar join is returning date values in the selection period\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Check Number Formatting embedded in DAX calculations\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"How to ensure fiscal week, etc aligns for dim tables\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Andy Ngyuen - Essbase forecast data - COGs, Inventory\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Daily Working sessions with Hue to move analysis forward \"}]},{\"textRuns\":[{\"value\":\"\\tMay 30 - Jun 03\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Granularity, handling snapshot data -- re-creating visualisations sent by Corp Finance\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"What datefield to use for DIM_Calendar\"}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 15.647921760391197,
+          "y": 296.2673186634067,
+          "z": 1000,
+          "width": 575.8435207823961,
+          "height": 224.28687856560717,
+          "config": "{\"name\":\"0ca376adec2d5df8bdca\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.647921760391197,\"y\":296.2673186634067,\"z\":1000,\"width\":575.8435207823961,\"height\":224.28687856560717,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.Fiscal Week\"},{\"queryRef\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\"},{\"queryRef\":\"DAX_InventoryTurns.Gross Inventory USD\"},{\"queryRef\":\"DAX_InventoryTurns.Gross Inventory USD (OH x SPC)\"},{\"queryRef\":\"DAX_InventoryTurns.Check Diff Gross Inv Equals Gross Inv (OH X SPC)\"},{\"queryRef\":\"DAX_InventoryTurns.Check Gross Inv Equals Gross Inv (OH X SPC)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Gross Inventory USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Week\"},\"Name\":\"DIM_Calendar.Fiscal Week\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Gross Inventory USD (OH x SPC)\"},\"Name\":\"DAX_InventoryTurns.Gross Inventory USD (OH x SPC)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Check Gross Inv Equals Gross Inv (OH X SPC)\"},\"Name\":\"DAX_InventoryTurns.Check Gross Inv Equals Gross Inv (OH X SPC)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Check Diff Gross Inv Equals Gross Inv (OH X SPC)\"},\"Name\":\"DAX_InventoryTurns.Check Diff Gross Inv Equals Gross Inv (OH X SPC)\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnWidth\":[{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"103.40893470790378D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.Gross Inventory USD\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"112.02749140893471D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.Gross Inventory USD (OH x SPC)\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"110.05841924398626D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.Check Diff Gross Inv Equals Gross Inv (OH X SPC)\"}},{\"properties\":{\"value\":{\"expr\":{\"Literal\":{\"Value\":\"113.54982817869417D\"}}}},\"selector\":{\"metadata\":\"DAX_InventoryTurns.Check Gross Inv Equals Gross Inv (OH X SPC)\"}}]}}}",
+          "filters": "[]",
+          "tabOrder": 1000
+        },
+        {
+          "x": 234.22680412371133,
+          "y": 21.993127147766323,
+          "z": 2000,
+          "width": 396.9759450171821,
+          "height": 273.8144329896907,
+          "config": "{\"name\":\"580ba5bab482211d9212\",\"layouts\":[{\"id\":0,\"position\":{\"x\":234.22680412371133,\"y\":21.993127147766323,\"z\":2000,\"width\":396.9759450171821,\"height\":273.8144329896907,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Week\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Week\"},\"Name\":\"DIM_Calendar.Fiscal Week\"}]},\"expansionStates\":[{\"roles\":[\"Values\"],\"levels\":[{\"queryRefs\":[\"DIM_Calendar.FISCAL_QUARTER_DISP\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}}],\"isPinned\":true},{\"queryRefs\":[\"DIM_Calendar.Fiscal Week\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "tabOrder": 2000
+        },
+        {
+          "x": 15.395189003436425,
+          "y": 21.993127147766323,
+          "z": 3000,
+          "width": 218.8316151202749,
+          "height": 273.8144329896907,
+          "config": "{\"name\":\"817cfe5b9285d9134544\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.395189003436425,\"y\":21.993127147766323,\"z\":3000,\"width\":218.8316151202749,\"height\":273.8144329896907,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue_Snowflake.SOURCE_TYPE\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "tabOrder": 3000
+        },
+        {
+          "x": 640.5215973920131,
+          "y": 296.2673186634067,
+          "z": 4000,
+          "width": 606.0961695191523,
+          "height": 224.28687856560717,
+          "config": "{\"name\":\"fcd31d3706cbe369b4de\",\"layouts\":[{\"id\":0,\"position\":{\"x\":640.5215973920131,\"y\":296.2673186634067,\"z\":4000,\"width\":606.0961695191523,\"height\":224.28687856560717,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.CALENDAR_YEARMONTHID\"},{\"queryRef\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"queryRef\":\"DIM_Calendar.Month End Flag\"},{\"queryRef\":\"DAX_InventoryTurns.Mthly Gross Inventory USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CALENDAR_YEARMONTHID\"},\"Name\":\"DIM_Calendar.CALENDAR_YEARMONTHID\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Mthly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Mthly Gross Inventory USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_WEEK_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month End Flag\"},\"Name\":\"DIM_Calendar.Month End Flag\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "tabOrder": 4000
+        },
+        {
+          "x": 16,
+          "y": 530,
+          "z": 5000,
+          "width": 576,
+          "height": 190,
+          "config": "{\"name\":\"424fe8259c89849cd5fe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":530,\"width\":576,\"height\":190,\"z\":5000,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"},{\"queryRef\":\"DIM_GL Account Segment.Account Classification\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DIM_GL Account Segment\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"INV_VALUE_USD\"}},\"Function\":0},\"Name\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Account Classification\"},\"Name\":\"DIM_GL Account Segment.Account Classification\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "tabOrder": 5000
+        },
+        {
+          "x": 641,
+          "y": 530,
+          "z": 6000,
+          "width": 606,
+          "height": 190,
+          "config": "{\"name\":\"db8e7101576497fbf339\",\"layouts\":[{\"id\":0,\"position\":{\"x\":641,\"y\":530,\"width\":606,\"height\":190,\"z\":6000,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_GL Account Segment.Account Classification\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_GL Account Segment\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Account Classification\"},\"Name\":\"DIM_GL Account Segment.Account Classification\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 6000
+        }
+      ],
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"201L\"}}}}}]}}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSectioncf6f2e46c2c6babc32c9",
+      "displayName": "Validation - COGS Gross Turns",
+      "filters": "[{\"name\":\"Filter3ff228f44e525b0691c1\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FC_QUARTER_OFFSET\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":3,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_QUARTER_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_QUARTER_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-10L\"}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":1,\"ordinal\":0}]",
+      "ordinal": 6,
+      "visualContainers": [
+        {
+          "x": 9.381107491856678,
+          "y": 179.28338762214983,
+          "z": 0,
+          "width": 538.8925081433225,
+          "height": 249.12052117263843,
+          "config": "{\"name\":\"54734780c6534ab68631\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.381107491856678,\"y\":179.28338762214983,\"z\":0,\"width\":538.8925081433225,\"height\":249.12052117263843,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\"},{\"queryRef\":\"FACT_M20Detail.GL_PERIOD\"},{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_TOT\"},{\"queryRef\":\"DAX_InventoryTurns.Gross Inventory USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_M20Detail\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"COGS__COS_TOT\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_TOT\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Gross Inventory USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_PERIOD\"},\"Name\":\"FACT_M20Detail.GL_PERIOD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Qrtrly Gross Inventory USD\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"Right\":{\"Literal\":{\"Value\":\"'2022'\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "tabOrder": 1000
+        },
+        {
+          "x": 10.423452768729643,
+          "y": 93.81107491856677,
+          "z": 1000,
+          "width": 257.4592833876222,
+          "height": 57.32899022801303,
+          "config": "{\"name\":\"d3119f3e2265263dee34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.423452768729643,\"y\":93.81107491856677,\"z\":1000,\"width\":257.4592833876222,\"height\":57.32899022801303,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"}]},\"syncGroup\":{\"groupName\":\"FIN_TBU\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 2000
+        },
+        {
+          "x": 597.2638436482085,
+          "y": 179.28338762214983,
+          "z": 2000,
+          "width": 647.2964169381107,
+          "height": 249.12052117263843,
+          "config": "{\"name\":\"d7e31d9293a9d1f9ec96\",\"layouts\":[{\"id\":0,\"position\":{\"x\":597.2638436482085,\"y\":179.28338762214983,\"z\":2000,\"width\":647.2964169381107,\"height\":249.12052117263843,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"},{\"queryRef\":\"DAX_InventoryTurns.Wkly Gross Inventory USD\"},{\"queryRef\":\"DAX_InventoryTurns.Qrtrly Inventory Turns COGS\"},{\"queryRef\":\"DAX_InventoryTurns.Wkly Inventory Turns COGS\"},{\"queryRef\":\"FACT_InventoryValue.FISCAL_WEEK\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Wkly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Wkly Gross Inventory USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Inventory Turns COGS\"},\"Name\":\"DAX_InventoryTurns.Qrtrly Inventory Turns COGS\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Wkly Inventory Turns COGS\"},\"Name\":\"DAX_InventoryTurns.Wkly Inventory Turns COGS\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FISCAL_WEEK\"},\"Name\":\"FACT_InventoryValue.FISCAL_WEEK\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Wkly Gross Inventory USD\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"Right\":{\"Literal\":{\"Value\":\"'Q2 2022'\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "tabOrder": 3000
+        },
+        {
+          "x": 579.5439739413681,
+          "y": 93.81107491856677,
+          "z": 3000,
+          "width": 217.85016286644952,
+          "height": 70.87947882736157,
+          "config": "{\"name\":\"89de9b767bb729ebc9d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":579.5439739413681,\"y\":93.81107491856677,\"z\":3000,\"width\":217.85016286644952,\"height\":70.87947882736157,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[{\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Contains\":{\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"}},\"Right\":{\"Literal\":{\"Value\":\"'202'\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false}]",
+          "tabOrder": 4000
+        },
+        {
+          "x": 279.3485342019544,
+          "y": 93.81107491856677,
+          "z": 4000,
+          "width": 300.1954397394137,
+          "height": 85.47231270358306,
+          "config": "{\"name\":\"599b14dad5a9f26ad795\",\"layouts\":[{\"id\":0,\"position\":{\"x\":279.3485342019544,\"y\":93.81107491856677,\"z\":4000,\"width\":300.1954397394137,\"height\":85.47231270358306,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_GLEntity.Entrity Code\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_GLEntity\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Entrity Code\"},\"Name\":\"DIM_GLEntity.Entrity Code\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_GLEntity\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Entrity Code\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'660'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "tabOrder": 5000
+        },
+        {
+          "x": 10.423452768729643,
+          "y": 10.423452768729643,
+          "z": 5000,
+          "width": 606.6449511400651,
+          "height": 64.62540716612378,
+          "config": "{\"name\":\"ea3ee1e1494f3a51aa34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.423452768729643,\"y\":10.423452768729643,\"z\":5000,\"width\":606.6449511400651,\"height\":64.62540716612378,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Validation Comments:\",\"textStyle\":{\"fontWeight\":\"bold\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Do we need separate metrics for qrtrly / weekly - how to handle this?\"}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 617,
+          "y": 0,
+          "z": 6000,
+          "width": 628,
+          "height": 150,
+          "config": "{\"name\":\"0ebb4fd178b7b09bd600\",\"layouts\":[{\"id\":0,\"position\":{\"x\":617,\"y\":0,\"width\":628,\"height\":150,\"z\":6000,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_InventoryValue.MAX_FISCAL_WK\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"MAX_FISCAL_WK\"},\"Name\":\"FACT_InventoryValue.MAX_FISCAL_WK\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "tabOrder": 6000
+        },
+        {
+          "x": 9.381107491856678,
+          "y": 445.0814332247557,
+          "z": 7000,
+          "width": 405.47231270358304,
+          "height": 134.46254071661238,
+          "config": "{\"name\":\"a868e5a0bb202151d346\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.381107491856678,\"y\":445.0814332247557,\"z\":7000,\"width\":405.47231270358304,\"height\":134.46254071661238,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_InventoryValue.FISCAL_WEEK\"},{\"queryRef\":\"DAX_InventoryTurns.Wkly Gross Inventory USD\"},{\"queryRef\":\"DAX_InventoryTurns.Wkly Inventory Turns COGS\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_TOT\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FISCAL_WEEK\"},\"Name\":\"FACT_InventoryValue.FISCAL_WEEK\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Wkly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Wkly Gross Inventory USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Wkly Inventory Turns COGS\"},\"Name\":\"DAX_InventoryTurns.Wkly Inventory Turns COGS\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"COGS__COS_TOT\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_TOT\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"COGS__COS_TOT\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[{\"expression\":{\"Arithmetic\":{\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Wkly Inventory Turns COGS\"}},\"Right\":{\"ScopedEval\":{\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Wkly Inventory Turns COGS\"}},\"Scope\":[]}},\"Operator\":3}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false}]",
+          "tabOrder": 7000
+        },
+        {
+          "x": 0,
+          "y": 445.0814332247557,
+          "z": 8000,
+          "width": 579.5439739413681,
+          "height": 275.17915309446255,
+          "config": "{\"name\":\"315ef044a07cf2d54db6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":445.0814332247557,\"z\":8000,\"width\":579.5439739413681,\"height\":275.17915309446255,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_InventoryTurns.Gross Inventory Turns (COGS)\"},{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD\"},{\"queryRef\":\"DAX_InventoryTurns.COGS__COS_TOT\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Gross Inventory Turns (COGS)\"},\"Name\":\"DAX_InventoryTurns.Gross Inventory Turns (COGS)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"COGS__COS_TOT\"},\"Name\":\"DAX_InventoryTurns.COGS__COS_TOT\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "tabOrder": 8000
+        },
+        {
+          "x": 597.2638436482085,
+          "y": 445.0814332247557,
+          "z": 9000,
+          "width": 647.2964169381107,
+          "height": 275.17915309446255,
+          "config": "{\"name\":\"e1b39bd9ad6062bcba2b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":597.2638436482085,\"y\":445.0814332247557,\"z\":9000,\"width\":647.2964169381107,\"height\":275.17915309446255,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD\"}],\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\",\"active\":true},{\"queryRef\":\"DIM_Calendar.GL Period\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GL Period\"},\"Name\":\"DIM_Calendar.GL Period\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - MinMax Gross Inventory Value (USD)\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]}}}",
+          "filters": "[]",
+          "tabOrder": 9000
+        }
+      ],
+      "config": "{\"relationships\":[{\"source\":\"d3119f3e2265263dee34\",\"target\":\"54734780c6534ab68631\",\"type\":1}],\"filterSortOrder\":3}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection6b8253632db68bdc2acf",
+      "displayName": "Validation - Relationships",
+      "filters": "[{\"name\":\"Filter74d0adaa9c4f6b713b5b\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Year\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'FY21'\"}}],[{\"Literal\":{\"Value\":\"'FY22'\"}}],[{\"Literal\":{\"Value\":\"'FY20'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+      "ordinal": 7,
+      "visualContainers": [
+        {
+          "x": 15.635179153094462,
+          "y": 195.96091205211727,
+          "z": 0,
+          "width": 554.527687296417,
+          "height": 309.57654723127035,
+          "config": "{\"name\":\"50dabfcd5fa3a13ebc97\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.635179153094462,\"y\":195.96091205211727,\"z\":0,\"width\":554.527687296417,\"height\":309.57654723127035}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.FISCAL_QUARTER_DISP\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_QUARTER_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_QUARTER_DISP\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - MinMax Inventory Value (USD)\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 988.14332247557,
+          "y": 0,
+          "z": 1000,
+          "width": 291.85667752443,
+          "height": 604.5602605863193,
+          "config": "{\"name\":\"99d5498c93b7656bc6a7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":988.14332247557,\"y\":0,\"z\":1000,\"width\":291.85667752443,\"height\":604.5602605863193}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"FACT_M20Detail.GL_PERIOD\"},{\"queryRef\":\"FACT_M20Detail.TRANS_DATE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_M20Detail\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"GL_PERIOD\"},\"Name\":\"FACT_M20Detail.GL_PERIOD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"TRANS_DATE\"},\"Name\":\"FACT_M20Detail.TRANS_DATE\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        },
+        {
+          "x": 826.5798045602606,
+          "y": 0,
+          "z": 2000,
+          "width": 453.4201954397394,
+          "height": 218.8925081433225,
+          "config": "{\"name\":\"01cd3c13a6bbcaba749e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":826.5798045602606,\"y\":0,\"z\":2000,\"width\":453.4201954397394,\"height\":218.8925081433225}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"queryRef\":\"FACT_InventoryValue.FISCAL_WEEK\"},{\"queryRef\":\"DIM_Calendar.Quarter End Flag\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_WEEK_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FISCAL_WEEK\"},\"Name\":\"FACT_InventoryValue.FISCAL_WEEK\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Quarter End Flag\"},\"Name\":\"DIM_Calendar.Quarter End Flag\"}]},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Check Fiscal Week Alignment Inventory Value and Dim Calendar'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 907.8827361563518,
+          "y": 621.2377850162867,
+          "z": 3000,
+          "width": 309.57654723127035,
+          "height": 85.47231270358306,
+          "config": "{\"name\":\"966ebecf87abe6e0d6eb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":907.8827361563518,\"y\":621.2377850162867,\"z\":3000,\"width\":309.57654723127035,\"height\":85.47231270358306}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"}]},\"syncGroup\":{\"groupName\":\"FIN_TBU\",\"fieldChanges\":true,\"filterChanges\":true},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 16,
+          "y": 0,
+          "z": 4000,
+          "width": 555,
+          "height": 196,
+          "config": "{\"name\":\"38a2896eb0b6e22701ec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"width\":555,\"height\":196,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"queryRef\":\"DIM_Calendar.Quarter End Flag\"},{\"queryRef\":\"DIM_Calendar.Month End Flag\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FISCAL_WEEK_DISP\"},\"Name\":\"DIM_Calendar.FISCAL_WEEK_DISP\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Quarter End Flag\"},\"Name\":\"DIM_Calendar.Quarter End Flag\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Month End Flag\"},\"Name\":\"DIM_Calendar.Month End Flag\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection777d7e713c7a4c7d90d3",
+      "displayName": "Validation - DIM_Calendar",
+      "filters": "[]",
+      "ordinal": 8,
+      "visualContainers": [
+        {
+          "x": 15.635179153094462,
+          "y": 359.60912052117266,
+          "z": 0,
+          "width": 432.5732899022801,
+          "height": 280.39087947882734,
+          "config": "{\"name\":\"37a54e84ba9ebe4953c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":15.635179153094462,\"y\":359.60912052117266,\"z\":0,\"width\":432.5732899022801,\"height\":280.39087947882734}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year Quarter\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"},{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        },
+        {
+          "x": 724.4299674267102,
+          "y": 26.058631921824105,
+          "z": 1000,
+          "width": 506.5798045602606,
+          "height": 277.2638436482085,
+          "config": "{\"name\":\"239ae45b3c2ffca0ad5c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":724.4299674267102,\"y\":26.058631921824105,\"z\":1000,\"width\":506.5798045602606,\"height\":277.2638436482085}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD Check\"}],\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\"},{\"queryRef\":\"DIM_Calendar.Fiscal Period Month\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD Check\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Period Month\"},\"Name\":\"DIM_Calendar.Fiscal Period Month\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]"
+        },
+        {
+          "x": 0,
+          "y": 139.6742671009772,
+          "z": 2000,
+          "width": 279.3485342019544,
+          "height": 135.50488599348535,
+          "config": "{\"name\":\"cb3751c2a8465f1b17e6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":139.6742671009772,\"z\":2000,\"width\":279.3485342019544,\"height\":135.50488599348535}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD Check\"},{\"queryRef\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD Check\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"INV_VALUE_USD\"}},\"Function\":0},\"Name\":\"Sum(FACT_InventoryValue.INV_VALUE_USD)\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        },
+        {
+          "x": 296.02605863192184,
+          "y": 26.058631921824105,
+          "z": 3000,
+          "width": 217.85016286644952,
+          "height": 277.2638436482085,
+          "config": "{\"name\":\"9adfba177646b87e3cdf\",\"layouts\":[{\"id\":0,\"position\":{\"x\":296.02605863192184,\"y\":26.058631921824105,\"z\":3000,\"width\":217.85016286644952,\"height\":277.2638436482085}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 405.47231270358304,
+          "y": 359.60912052117266,
+          "z": 4000,
+          "width": 432.5732899022801,
+          "height": 280.39087947882734,
+          "config": "{\"name\":\"9e969b4e47d4819987c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":405.47231270358304,\"y\":359.60912052117266,\"z\":4000,\"width\":432.5732899022801,\"height\":280.39087947882734}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year Quarter\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        },
+        {
+          "x": 848.4690553745928,
+          "y": 359.60912052117266,
+          "z": 5000,
+          "width": 431.5309446254072,
+          "height": 287.6872964169381,
+          "config": "{\"name\":\"d30f3e32479b96edf3fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":848.4690553745928,\"y\":359.60912052117266,\"z\":5000,\"width\":431.5309446254072,\"height\":287.6872964169381}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"queryRef\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"},{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD\"},{\"queryRef\":\"DAX_Validations.Check Gross Inv(1) eqs Gross Inv(2)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Qrtrly Gross Inventory USD\"},\"Name\":\"DAX_InventoryTurns.Qrtrly Gross Inventory USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Check Gross Inv(1) eqs Gross Inv(2)\"},\"Name\":\"DAX_Validations.Check Gross Inv(1) eqs Gross Inv(2)\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Fiscal Year Quarter\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection3960848240ed29170884",
+      "displayName": "Validation - KPIs",
+      "filters": "[{\"name\":\"Filter3a990e9e0972343192e7\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+      "ordinal": 9,
+      "visualContainers": [
+        {
+          "x": 12.50814332247557,
+          "y": 89.64169381107492,
+          "z": 0,
+          "width": 708.7947882736156,
+          "height": 312.7035830618893,
+          "config": "{\"name\":\"d02c88e8ac851540408c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.50814332247557,\"y\":89.64169381107492,\"z\":0,\"width\":708.7947882736156,\"height\":312.7035830618893}}],\"singleVisual\":{\"visualType\":\"stackedAreaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\",\"active\":true},{\"queryRef\":\"DIM_Calendar.GL Period\"},{\"queryRef\":\"DIM_Calendar.Fiscal Week\"}],\"Y\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}],\"Series\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GL Period\"},\"Name\":\"DIM_Calendar.GL Period\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Week\"},\"Name\":\"DIM_Calendar.Fiscal Week\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - MinMax Gross Inventory Value (USD)\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Intransit'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.4}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Onhand'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Receiving'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'WIP'\"}}}}}]}},{\"properties\":{\"showAllDataPoints\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"DAX_Validations.Total Inventory Value USD\"}}],\"valueAxis\":[{\"properties\":{\"end\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Cndf - Max of Total Inventory Value USD\"}}}}}],\"totals\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Gross Inventory Value USD\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false},{\"name\":\"Filteraf062d8483fb656b49f9\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{}}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d3\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GL Period\"},\"Name\":\"DIM_Calendar.GL Period\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Week\"},\"Name\":\"DIM_Calendar.Fiscal Week\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Cndf - MinMax Gross Inventory Value (USD)\"},\"Name\":\"DAX_InventoryTurns.Cndf - MinMax Gross Inventory Value (USD)\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Cndf - Max of Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Cndf - Max of Total Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Gross Inventory Value USD\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Target\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"GL Period\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Week\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}]},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d3\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"}}},{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0,1,4]}]},\"Secondary\":{\"Groupings\":[{\"Projections\":[5,6]}]},\"Projections\":[7],\"DataReduction\":{\"DataVolume\":4,\"Primary\":{\"Window\":{\"Count\":200}},\"Secondary\":{\"Top\":{\"Count\":60}}},\"SuppressedJoinPredicates\":[6],\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{\"categoryAxis\":[{\"properties\":{\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - MinMax Gross Inventory Value (USD)\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.6}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Intransit'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.4}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Onhand'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'Receiving'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"Right\":{\"Literal\":{\"Value\":\"'WIP'\"}}}}}]}},{\"properties\":{\"showAllDataPoints\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"DAX_Validations.Total Inventory Value USD\"}}],\"valueAxis\":[{\"properties\":{\"end\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Cndf - Max of Total Inventory Value USD\"}}}}}],\"totals\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"projectionOrdering\":{\"Category\":[0,1,2,3],\"Y\":[4],\"Series\":[5]},\"projectionActiveItems\":{\"Category\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"suppressConcat\":false},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Fiscal Year\",\"Name\":\"DIM_Calendar.Fiscal Year\",\"Type\":2048},{\"Restatement\":\"Fiscal Quarter\",\"Name\":\"DIM_Calendar.Fiscal Quarter\",\"Type\":2048},{\"Restatement\":\"GL Period\",\"Name\":\"DIM_Calendar.GL Period\",\"Type\":2048},{\"Restatement\":\"Fiscal Week\",\"Name\":\"DIM_Calendar.Fiscal Week\",\"Type\":2048},{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1},{\"Restatement\":\"SOURCE_TYPE\",\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\",\"Type\":2048}],\"Filters\":[{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Category\",\"Projection\":0,\"isActive\":true},{\"Name\":\"Category\",\"Projection\":1,\"isActive\":true},{\"Name\":\"Category\",\"Projection\":2,\"isActive\":false},{\"Name\":\"Category\",\"Projection\":3,\"isActive\":false},{\"Name\":\"Y\",\"Projection\":4,\"isActive\":false},{\"Name\":\"Series\",\"Projection\":5,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Fiscal Year\",\"queryName\":\"DIM_Calendar.Fiscal Year\",\"roles\":{\"Category\":true},\"sort\":1,\"sortOrder\":0,\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Year\"}}},{\"displayName\":\"Fiscal Quarter\",\"queryName\":\"DIM_Calendar.Fiscal Quarter\",\"roles\":{\"Category\":true},\"sort\":1,\"sortOrder\":1,\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Quarter\"}}},{\"displayName\":\"GL Period\",\"queryName\":\"DIM_Calendar.GL Period\",\"roles\":{\"Category\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"GL Period\"}}},{\"displayName\":\"Fiscal Week\",\"queryName\":\"DIM_Calendar.Fiscal Week\",\"roles\":{\"Category\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Week\"}}},{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Y\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}},{\"displayName\":\"SOURCE_TYPE\",\"queryName\":\"FACT_InventoryValue.SOURCE_TYPE\",\"roles\":{\"Series\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"displayName\":\"Cndf - MinMax Gross Inventory Value (USD)\",\"queryName\":\"DAX_InventoryTurns.Cndf - MinMax Gross Inventory Value (USD)\",\"roles\":{},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - MinMax Gross Inventory Value (USD)\"}}},{\"displayName\":\"Cndf - Max of Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Cndf - Max of Total Inventory Value USD\",\"roles\":{},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Cndf - Max of Total Inventory Value USD\"}}}]}"
+        },
+        {
+          "x": 12.50814332247557,
+          "y": 402.3452768729642,
+          "z": 1000,
+          "width": 708.7947882736156,
+          "height": 317.91530944625407,
+          "config": "{\"name\":\"256c6e5eee44e63d52aa\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.50814332247557,\"y\":402.3452768729642,\"z\":1000,\"width\":708.7947882736156,\"height\":317.91530944625407}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}],\"Columns\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year Quarter\",\"active\":true}],\"Rows\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Year Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[2],\"Subtotal\":1}]},\"Secondary\":{\"Groupings\":[{\"Projections\":[0,1],\"Subtotal\":2}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Window\":{\"Count\":100}},\"Secondary\":{\"Top\":{\"Count\":100}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{},\"projectionOrdering\":{\"Values\":[0],\"Columns\":[1],\"Rows\":[2]},\"projectionActiveItems\":{\"Columns\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year Quarter\",\"suppressConcat\":false}],\"Rows\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1},{\"Restatement\":\"Fiscal Year Quarter\",\"Name\":\"DIM_Calendar.Fiscal Year Quarter\",\"Type\":2048},{\"Restatement\":\"SOURCE_TYPE\",\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\",\"Type\":2048}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false},{\"Name\":\"Columns\",\"Projection\":1,\"isActive\":true},{\"Name\":\"Rows\",\"Projection\":2,\"isActive\":true}]}],\"selects\":[{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}},{\"displayName\":\"Fiscal Year Quarter\",\"queryName\":\"DIM_Calendar.Fiscal Year Quarter\",\"roles\":{\"Columns\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Year Quarter\"}}},{\"displayName\":\"SOURCE_TYPE\",\"queryName\":\"FACT_InventoryValue.SOURCE_TYPE\",\"roles\":{\"Rows\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}}]}"
+        },
+        {
+          "x": 563.6901653611836,
+          "y": 0,
+          "z": 2000,
+          "width": 157.07571801566579,
+          "height": 76.8668407310705,
+          "config": "{\"name\":\"9e1ffef98fac4d5b9ac9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":563.6901653611836,\"y\":0,\"z\":2000,\"width\":157.07571801566579,\"height\":76.8668407310705}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"Filter3aa2dc5d216721cbd70e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{\"labels\":[{\"properties\":{\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"projectionOrdering\":{\"Values\":[0]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1}],\"Filters\":[{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}}]}"
+        },
+        {
+          "x": 731.9060052219321,
+          "y": 0,
+          "z": 3000,
+          "width": 167.1018276762402,
+          "height": 76.8668407310705,
+          "config": "{\"name\":\"89099b30aecb933ec22e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.9060052219321,\"y\":0,\"z\":3000,\"width\":167.1018276762402,\"height\":76.8668407310705}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Gross Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Gross Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Gross Inventory Value USD\"},\"Name\":\"DAX_Validations.Gross Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"projectionOrdering\":{\"Values\":[0]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Gross Inventory Value USD\",\"Name\":\"DAX_Validations.Gross Inventory Value USD\",\"Type\":1}],\"Filters\":[{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Gross Inventory Value USD\",\"queryName\":\"DAX_Validations.Gross Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}}}]}"
+        },
+        {
+          "x": 260.58631921824104,
+          "y": 0,
+          "z": 4000,
+          "width": 211.59609120521174,
+          "height": 77.13355048859935,
+          "config": "{\"name\":\"ab1bed983892d9777e0d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":260.58631921824104,\"y\":0,\"z\":4000,\"width\":211.59609120521174,\"height\":77.13355048859935}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]}}}",
+          "filters": "[{\"name\":\"Filter49d86c1b56d13127d332\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Total Inventory Value USD\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Target\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}]},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Window\":{}}},\"IncludeEmptyGroups\":true,\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Financial Map\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}}]}}}}]},\"projectionOrdering\":{\"Values\":[0]},\"projectionActiveItems\":{\"Values\":[{\"queryRef\":\"DIM_Financial Map.FIN_TBU\",\"suppressConcat\":false}]},\"queryMetadata\":null,\"visualElements\":null,\"selects\":[{\"displayName\":\"FIN_TBU\",\"queryName\":\"DIM_Financial Map.FIN_TBU\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Financial Map\"}},\"Property\":\"FIN_TBU\"}}}]}"
+        },
+        {
+          "x": 911.2619669277632,
+          "y": 0,
+          "z": 5000,
+          "width": 158.18973020017407,
+          "height": 76.8668407310705,
+          "config": "{\"name\":\"5864e5ed80d00fb5f640\",\"layouts\":[{\"id\":0,\"position\":{\"x\":911.2619669277632,\"y\":0,\"z\":5000,\"width\":158.18973020017407,\"height\":76.8668407310705}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total Onhand Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Onhand Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Onhand Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Onhand Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[{\"name\":\"Filter3aa2dc5d216721cbd70e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Onhand Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Onhand Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"projectionOrdering\":{\"Values\":[0]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Total Onhand Inventory Value USD\",\"Name\":\"DAX_Validations.Total Onhand Inventory Value USD\",\"Type\":1}],\"Filters\":[{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Onhand Inventory Value USD\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Total Onhand Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Onhand Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Onhand Inventory Value USD\"}}}]}"
+        },
+        {
+          "x": 1085.047867711053,
+          "y": 0,
+          "z": 6000,
+          "width": 167.1018276762402,
+          "height": 76.8668407310705,
+          "config": "{\"name\":\"3f9eb81424a6820e129d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1085.047867711053,\"y\":0,\"z\":6000,\"width\":167.1018276762402,\"height\":76.8668407310705}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total WIP Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total WIP Inventory Value USD\"},\"Name\":\"DAX_Validations.Total WIP Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total WIP Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[{\"name\":\"Filter3aa2dc5d216721cbd70e\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total WIP Inventory Value USD\"},\"Name\":\"DAX_Validations.Total WIP Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"projectionOrdering\":{\"Values\":[0]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Total WIP Inventory Value USD\",\"Name\":\"DAX_Validations.Total WIP Inventory Value USD\",\"Type\":1}],\"Filters\":[{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total WIP Inventory Value USD\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Total WIP Inventory Value USD\",\"queryName\":\"DAX_Validations.Total WIP Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total WIP Inventory Value USD\"}}}]}"
+        },
+        {
+          "x": 12.50814332247557,
+          "y": 0,
+          "z": 7000,
+          "width": 238.6970684039088,
+          "height": 77.13355048859935,
+          "config": "{\"name\":\"4ed672740141a217dcec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":12.50814332247557,\"y\":0,\"z\":7000,\"width\":238.6970684039088,\"height\":77.13355048859935}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"DIM_GLEntity.Entity Code\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_GLEntity\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Entity Code\"},\"Name\":\"DIM_GLEntity.Entity Code\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_GLEntity\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Entity Code\"},\"Name\":\"DIM_GLEntity.Entity Code\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Window\":{}}},\"IncludeEmptyGroups\":true,\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"selfFilterEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"projectionOrdering\":{\"Values\":[0]},\"projectionActiveItems\":{\"Values\":[{\"queryRef\":\"DIM_GLEntity.Entity Code\",\"suppressConcat\":false}]},\"queryMetadata\":null,\"visualElements\":null,\"selects\":[{\"displayName\":\"Entity Code\",\"queryName\":\"DIM_GLEntity.Entity Code\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_GLEntity\"}},\"Property\":\"Entity Code\"}}}]}"
+        },
+        {
+          "x": 731.9060052219321,
+          "y": 89.12097476066144,
+          "z": 8000,
+          "width": 548.0939947780679,
+          "height": 313.0374238468233,
+          "config": "{\"name\":\"27756212a9f23cc718ee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.9060052219321,\"y\":89.12097476066144,\"z\":8000,\"width\":548.0939947780679,\"height\":313.0374238468233}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - Source Type Colours\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]}}}",
+          "filters": "[{\"name\":\"Filter0cdf83726991e3d70487\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":0,\"objects\":{},\"isHiddenInViewMode\":false}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_InventoryTurns\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Cndf - Source Type Colours\"},\"Name\":\"DAX_InventoryTurns.Cndf - Source Type Colours\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0,1,2]}]},\"DataReduction\":{\"DataVolume\":4,\"Primary\":{\"Window\":{\"Count\":1000}}},\"SuppressedJoinPredicates\":[2],\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - Source Type Colours\"}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}]}}]},\"projectionOrdering\":{\"Category\":[0],\"Y\":[1]},\"projectionActiveItems\":{\"Category\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"SOURCE_TYPE\",\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\",\"Type\":2048},{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1}],\"Filters\":[{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Category\",\"Projection\":0,\"isActive\":true},{\"Name\":\"Y\",\"Projection\":1,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"SOURCE_TYPE\",\"queryName\":\"FACT_InventoryValue.SOURCE_TYPE\",\"roles\":{\"Category\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Y\":true},\"sort\":2,\"sortOrder\":0,\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}},{\"displayName\":\"Cndf - Source Type Colours\",\"queryName\":\"DAX_InventoryTurns.Cndf - Source Type Colours\",\"roles\":{},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_InventoryTurns\"}},\"Property\":\"Cndf - Source Type Colours\"}}}]}"
+        },
+        {
+          "x": 731.8451025056949,
+          "y": 577.3120728929385,
+          "z": 9000,
+          "width": 548.1548974943053,
+          "height": 141.89825360668186,
+          "config": "{\"name\":\"ba765d2c6b8e19a676d8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.8451025056949,\"y\":577.3120728929385,\"z\":9000,\"width\":548.1548974943053,\"height\":141.89825360668186}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}],\"Columns\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"active\":true},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\",\"active\":true}],\"Rows\":[{\"queryRef\":\"FACT_InventoryValue.FIN_TBU\",\"active\":true},{\"queryRef\":\"DIM_Financial Map.FIN_TBU\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"FACT_InventoryValue.FIN_TBU\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"}}}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"FACT_InventoryValue.FIN_TBU\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"FIN_TBU\"}}],\"isPinned\":true},{\"queryRefs\":[\"DIM_Financial Map.FIN_TBU\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true,\"objects\":{}}}",
+          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}},\"type\":\"Advanced\",\"howCreated\":1,\"isHiddenInViewMode\":false},{\"name\":\"Filteraf062d8483fb656b49f9\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{}}]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d2\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Quarter\"},\"Name\":\"DIM_Calendar.Fiscal Quarter\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Fiscal Year\"},\"Name\":\"DIM_Calendar.Fiscal Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"DIM_Financial Map.FIN_TBU\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"FIN_TBU\"},\"Name\":\"FACT_InventoryValue.FIN_TBU\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Intransit'\"}}],[{\"Literal\":{\"Value\":\"'Onhand'\"}}],[{\"Literal\":{\"Value\":\"'Receiving'\"}}],[{\"Literal\":{\"Value\":\"'WIP'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d2\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[4],\"Subtotal\":1}]},\"Secondary\":{\"Groupings\":[{\"Projections\":[2],\"Subtotal\":2},{\"Projections\":[0,1],\"Subtotal\":2}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Window\":{\"Count\":100}},\"Secondary\":{\"Top\":{\"Count\":100}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"objects\":{},\"projectionOrdering\":{\"Values\":[0],\"Columns\":[2,1],\"Rows\":[4,3]},\"projectionActiveItems\":{\"Columns\":[{\"queryRef\":\"DIM_Calendar.Fiscal Year\",\"suppressConcat\":false},{\"queryRef\":\"DIM_Calendar.Fiscal Quarter\",\"suppressConcat\":false}],\"Rows\":[{\"queryRef\":\"FACT_InventoryValue.FIN_TBU\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1},{\"Restatement\":\"Fiscal Quarter\",\"Name\":\"DIM_Calendar.Fiscal Quarter\",\"Type\":2048},{\"Restatement\":\"Fiscal Year\",\"Name\":\"DIM_Calendar.Fiscal Year\",\"Type\":2048},{\"Restatement\":\"FIN_TBU\",\"Name\":\"DIM_Financial Map.FIN_TBU\",\"Type\":2048},{\"Restatement\":\"FIN_TBU\",\"Name\":\"FACT_InventoryValue.FIN_TBU\",\"Type\":2048}],\"Filters\":[{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Gross Inventory Value USD\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"type\":2,\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Quarter\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Year\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Financial Map\"}},\"Property\":\"FIN_TBU\"}}},{\"type\":0,\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"FIN_TBU\"}}}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Values\",\"Projection\":0,\"isActive\":false},{\"Name\":\"Columns\",\"Projection\":2,\"isActive\":true},{\"Name\":\"Columns\",\"Projection\":1,\"isActive\":true},{\"Name\":\"Rows\",\"Projection\":4,\"isActive\":true},{\"Name\":\"Rows\",\"Projection\":3,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Values\":true},\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}},{\"displayName\":\"Fiscal Quarter\",\"queryName\":\"DIM_Calendar.Fiscal Quarter\",\"roles\":{\"Columns\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Quarter\"}}},{\"displayName\":\"Fiscal Year\",\"queryName\":\"DIM_Calendar.Fiscal Year\",\"roles\":{\"Columns\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"Fiscal Year\"}}},{\"displayName\":\"FIN_TBU\",\"queryName\":\"DIM_Financial Map.FIN_TBU\",\"roles\":{\"Rows\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Financial Map\"}},\"Property\":\"FIN_TBU\"}}},{\"displayName\":\"FIN_TBU\",\"queryName\":\"FACT_InventoryValue.FIN_TBU\",\"roles\":{\"Rows\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"FIN_TBU\"}}}],\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"FACT_InventoryValue.FIN_TBU\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"FIN_TBU\"}}],\"isPinned\":true},{\"queryRefs\":[\"DIM_Financial Map.FIN_TBU\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null}}]}"
+        },
+        {
+          "x": 731.8451025056949,
+          "y": 402.369020501139,
+          "z": 9001,
+          "width": 548.1548974943053,
+          "height": 257.5550493545938,
+          "config": "{\"name\":\"b7e2496fe8e249ccb5ff\",\"layouts\":[{\"id\":0,\"position\":{\"x\":731.8451025056949,\"y\":402.369020501139,\"z\":9001,\"width\":548.1548974943053,\"height\":257.5550493545938}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "query": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FACT_InventoryValue\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Financial Map\",\"Type\":0},{\"Name\":\"d11\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SOURCE_TYPE\"},\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"FIN_TBU\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'DPSS_Germany'\"}}]]}}},{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d11\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-3L\"}}}}}}}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0,1]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+          "dataTransforms": "{\"projectionOrdering\":{\"Category\":[0],\"Y\":[1]},\"projectionActiveItems\":{\"Category\":[{\"queryRef\":\"FACT_InventoryValue.SOURCE_TYPE\",\"suppressConcat\":false}]},\"queryMetadata\":{\"Select\":[{\"Restatement\":\"SOURCE_TYPE\",\"Name\":\"FACT_InventoryValue.SOURCE_TYPE\",\"Type\":2048},{\"Restatement\":\"Total Inventory Value USD\",\"Name\":\"DAX_Validations.Total Inventory Value USD\",\"Type\":1}]},\"visualElements\":[{\"DataRoles\":[{\"Name\":\"Category\",\"Projection\":0,\"isActive\":true},{\"Name\":\"Y\",\"Projection\":1,\"isActive\":false}]}],\"selects\":[{\"displayName\":\"SOURCE_TYPE\",\"queryName\":\"FACT_InventoryValue.SOURCE_TYPE\",\"roles\":{\"Category\":true},\"type\":{\"category\":null,\"underlyingType\":1},\"expr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"FACT_InventoryValue\"}},\"Property\":\"SOURCE_TYPE\"}}},{\"displayName\":\"Total Inventory Value USD\",\"queryName\":\"DAX_Validations.Total Inventory Value USD\",\"roles\":{\"Y\":true},\"sort\":2,\"sortOrder\":0,\"type\":{\"category\":null,\"underlyingType\":259},\"expr\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DAX_Validations\"}},\"Property\":\"Total Inventory Value USD\"}}}]}"
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "name": "ReportSection5900ff79d3b33e376ad0",
+      "displayName": "Page 1",
+      "filters": "[{\"name\":\"Filterae8705ca833e7b167f0d\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"DIM_Calendar\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"And\":{\"Left\":{\"Comparison\":{\"ComparisonKind\":4,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Right\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"FC_YEAR_OFFSET\"}},\"Right\":{\"Literal\":{\"Value\":\"-1L\"}}}}}}}]},\"type\":\"Advanced\",\"howCreated\":1}]",
+      "ordinal": 10,
+      "visualContainers": [
+        {
+          "x": 9.72644376899696,
+          "y": 0,
+          "z": 0,
+          "width": 468.8145896656535,
+          "height": 593.3130699088147,
+          "config": "{\"name\":\"8feece4473e818c05e04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.72644376899696,\"y\":0,\"z\":0,\"width\":468.8145896656535,\"height\":593.3130699088147}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"DAX_Validations.Total Inventory Value USD\"},{\"queryRef\":\"DIM_Calendar.Calendar Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX_Validations\",\"Type\":0},{\"Name\":\"d1\",\"Entity\":\"DIM_Calendar\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Total Inventory Value USD\"},\"Name\":\"DAX_Validations.Total Inventory Value USD\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d1\"}},\"Property\":\"Calendar Day\"},\"Name\":\"DIM_Calendar.Calendar Day\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "config": "{\"version\":\"5.30\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU03\",\"version\":\"5.32\",\"type\":2},\"customTheme\":{\"name\":\"CorporateDarkBlue4713078048581183.json\",\"version\":\"5.32\",\"type\":1}},\"activeSectionIndex\":9,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0
+}
